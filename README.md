@@ -7,7 +7,7 @@ This project is a Redis-like in-memory database implemented in **C++**. It provi
 ## Features  
 
 - **Key-Value Storage**: Fast insertion and retrieval using hashmaps.  
-- **Sorted Sets**: Implemented with AVL trees to support ordered operations.  
+- **AVL Trees**: Implemented with AVL trees to support ordered operations.  
 - **TTL Management**: Min-heaps handle automatic expiration of keys.  
 - **Client-Server Communication**: TCP sockets ensure seamless interaction between server and clients.  
 - **Scalability**: Thread pools and event loops improve responsiveness under high load.  
